@@ -17,13 +17,30 @@ Route::get('/', function () {
     return view('08-01-24/index');
 });
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+
+
+Route::get('/9-enero-001', function () {
+    return view('09-01-24/variables');
+});
+
+Route::get('/9-enero-002', function () {
+    return view('09-01-24/constantes');
+});
+
+Route::get('/9-enero-003', function () {
+    return view('09-01-24/tipos-de-datos');
+});
+
+Route::get('/9-enero-004', function () {
+    return view('09-01-24/tipo-de-operador');
+});
+
+
+
+
+
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
