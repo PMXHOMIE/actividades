@@ -40,31 +40,18 @@ Route::get('/9-enero-004', function () {
 
 
 
+Route::get('/10-enero-001', function () {
+    return view('10-01-24/operadores-de-comparacion');
+});
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/10-enero-002', function () {
+    return view('10-01-24/operadores-de-asignacion-combinada');
+});
+
+Route::get('/10-enero-003', function () {
+    return view('10-01-24/estructuras-condicionales');
+});
+
+
+
+
