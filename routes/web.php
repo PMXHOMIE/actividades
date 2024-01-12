@@ -55,3 +55,13 @@ Route::get('/10-enero-003', function () {
 
 
 
+Route::get('/11-enero-001', function () {
+    return view('11-01-24/operadores-terniarios');
+});
+
+Route::get('/11-enero-002', function () {
+    return view('11-01-24/estructura-de-seleccion-multiple');
+});
+
+
+
