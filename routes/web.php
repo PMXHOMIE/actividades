@@ -65,3 +65,13 @@ Route::get('/11-enero-002', function () {
 
 
 
+Route::get('/12-enero-001', function () {
+    return view('12-01-24/estructuras-repetitivas');
+});
+
+Route::get('/12-enero-002', function () {
+    return view('12-01-24/bucle-for-foreach');
+});
+
+
+
