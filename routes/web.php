@@ -75,3 +75,18 @@ Route::get('/12-enero-002', function () {
 
 
 
+Route::get('/13-enero-001', function () {
+    return view('13-01-24/break-continue');
+});
+
+Route::get('/13-enero-002', function () {
+    return view('13-01-24/funciones-prededinidas');
+});
+
+Route::get('/13-enero-003', function () {
+    return view('13-01-24/funciones');
+});
+
+
+
+
