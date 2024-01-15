@@ -90,3 +90,14 @@ Route::get('/13-enero-003', function () {
 
 
 
+Route::get('/14-enero-001', function () {
+    return view('14-01-24/variables-globales');
+});
+
+Route::get('/14-enero-001', function () {
+    return view('14-01-24/argumentos-fijos');
+});
+
+
+
+
