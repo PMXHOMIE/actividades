@@ -101,3 +101,13 @@ Route::get('/14-enero-001', function () {
 
 
 
+Route::get('/15-enero-001', function () {
+    return view('15-01-24/funciones-tipado-definido');
+});
+
+Route::get('/15-enero-002', function () {
+    return view('15-01-24/cadena-caracteres');
+});
+
+
+

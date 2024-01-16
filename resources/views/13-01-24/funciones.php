@@ -1,14 +1,14 @@
 <?php
 
-// $resultado = 1;
+$resultado = 1;
 
-// for ($i = 1; $i <= 9 ; $i++) { 
+for ($i = 1; $i <= 9 ; $i++) { 
 
-//     $resultado = $resultado * $i;
+    $resultado = $resultado * $i;
 
-// }
+}
 
-// echo "El factorialde 9 es: " . $resultado;
+echo "El factorialde 9 es: " . $resultado;
 
 
 function factorial($n){
