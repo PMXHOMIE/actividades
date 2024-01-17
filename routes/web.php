@@ -110,4 +110,8 @@ Route::get('/15-enero-002', function () {
 });
 
 
+Route::get('/16-enero-001', function () {
+    return view('15-01-24/arrays');
+});
+
 
