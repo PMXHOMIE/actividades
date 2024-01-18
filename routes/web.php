@@ -110,8 +110,33 @@ Route::get('/15-enero-002', function () {
 });
 
 
+
+
 Route::get('/16-enero-001', function () {
     return view('15-01-24/arrays');
+});
+
+
+
+
+Route::get('/17-enero-001', function () {
+    return view('17-01-24/arrays-multidimencionales');
+});
+
+Route::get('/17-enero-002', function () {
+    return view('17-01-24/funciones-para-arrays');
+});
+
+Route::get('/17-enero-003', function () {
+    return view('17-01-24/formularios');
+});
+
+Route::get('/17-enero-004', function () {
+    return view('17-01-24/arrays');
+});
+
+Route::get('/17-enero-005', function () {
+    return view('17-01-24/arrays');
 });
 
 
