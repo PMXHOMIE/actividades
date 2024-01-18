@@ -7,17 +7,17 @@
 </head>
 <body>
 
-<form action="form-procesar.php" method="POST">
+<form action="{{route('17-01-24.form-procesar')}}"method="POST">
    <label for="name">
     Nombre:
-    <input type="text" name="name"> 
+    <input type="text" name="name">
    </label>
     <br>
    <button type="summit">Enviar</button>
-    
-    
+
+
 
 </form>
-    
+
 </body>
 </html>
